@@ -1,8 +1,8 @@
 # amzsc
 
 [![image](https://img.shields.io/pypi/v/amzsc.svg)](https://pypi.python.org/pypi/amzsc)
-[![image](https://img.shields.io/pypi/l/amzsc.svg)](https://pypi.python.org/pypi/amzsc)
-[![image](https://img.shields.io/pypi/pyversions/amzsc.svg)](https://pypi.python.org/pypi/amzsc)
+[![image](https://img.shields.io/pypi/l/amzsc.svg)](https://img.shields.io/pypi/l/amzsc.svg)
+[![image](https://img.shields.io/pypi/pyversions/amzsc.svg)](https://img.shields.io/pypi/pyversions/amzsc.svg)
 [![Actions status](https://github.com/ryzanbui02/amzsc/actions/workflows/test-and-release.yaml/badge.svg)](https://github.com/ryzanbui02/amzsc/actions)
 [![codecov](https://codecov.io/gh/ryzanbui02/amzsc/branch/main/graph/badge.svg)](https://codecov.io/gh/ryzanbui02/amzsc)
 

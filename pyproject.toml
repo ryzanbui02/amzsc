@@ -32,6 +32,7 @@ dependencies = [
   "selenium>=4.35.0"
 ]
 description = "Amazon product description scraper"
+license = {file = "LICENSE"}
 name = "amzsc"
 readme = "README.md"
 requires-python = ">=3.10"
