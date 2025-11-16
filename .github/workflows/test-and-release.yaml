@@ -42,23 +42,14 @@ jobs:
         uv run pytest
 
     - uses: codecov/codecov-action@v5
-      if: matrix.python-version == '3.13'
+      if: matrix.python-version == '3.14'
       name: Upload coverage to codecov
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
 
     - name: Build wheel
-      if: matrix.python-version == '3.13'
-      run: |
-        uv build
-
-    - name: Upload wheel
-      if: matrix.python-version == '3.13'
-      uses: actions/upload-artifact@v4
-      with:
-        name: amzsc-wheel
-        path: dist/
-        retention-days: 1
+      if: matrix.python-version == '3.14'
+      run: uv build
 
   build:
     name: Create release
